@@ -1,7 +1,11 @@
 init:
 	pip install -r requirements.txt
 lint:
-	python -m flake8 .
+	flake8 .
 format:
 	black .
-	make lint
+publish:
+	pip install --upgrade build
+	pip install --upgrade twine
+	python -m build
+	twine upload dist/*
