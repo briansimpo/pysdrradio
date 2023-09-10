@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+.vscode
+dolphinido.sqlite3
+
+__pycache__/
+venv/
+*.py[cod]
+*$py.class
+*.wav
+*.mp3
