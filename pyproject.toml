@@ -8,7 +8,7 @@ version = "0.0.1"
 authors = [
   { name="Brian Simpokolwe", email="briansimpokolwe@gmail.com" },
 ]
-description = "RTL-SDR FM Radio Receiver"
+description = "RTL-SDR FM Radio"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
