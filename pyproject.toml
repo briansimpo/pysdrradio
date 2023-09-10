@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pysdrradio"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Brian Simpokolwe", email="briansimpokolwe@gmail.com" },
 ]
@@ -16,11 +16,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-
-[project.urls]
-"Homepage" = "https://github.com/briansimpo/pysdrradio"
-"Bug Tracker" = "https://github.com/briansimpo/pysdrradio/issues"
-
 dependencies = [
     "numpy >= 1.25.0",
     "matplotlib >= 3.7.1",
@@ -30,3 +25,8 @@ dependencies = [
     "pyrtlsdr >= 0.3.0", 
     "pyrtlsdrlib >= 0.0.2"
 ]
+
+[project.urls]
+"Homepage" = "https://github.com/briansimpo/pysdrradio"
+"Bug Tracker" = "https://github.com/briansimpo/pysdrradio/issues"
+
